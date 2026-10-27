@@ -1,0 +1,10 @@
+scenario,protocol,trials,success_rate_percent,avg_transmissions,avg_retransmissions,avg_delay_ms,avg_packets_lost,avg_packets_corrupted,avg_acks_lost
+Moderate,Go-Back-N,20,100.0,11.55,3.55,81.7,0.8,0.95,0.2
+Moderate,Selective Repeat,20,100.0,9.4,1.4,98.2,0.65,0.35,0.4
+Moderate,Stop-and-Wait,20,100.0,9.4,1.4,98.2,0.65,0.35,0.4
+Noisy,Go-Back-N,20,85.0,21.55,13.55,156.95,2.6,5.75,0.8
+Noisy,Selective Repeat,20,85.0,14.3,6.3,125.9,1.5,4.0,1.0
+Noisy,Stop-and-Wait,20,95.0,14.15,6.15,125.05,1.4,4.05,0.9
+Reliable,Go-Back-N,20,100.0,8.0,0.0,55.15,0.0,0.0,0.0
+Reliable,Selective Repeat,20,100.0,8.0,0.0,89.4,0.0,0.0,0.0
+Reliable,Stop-and-Wait,20,100.0,8.0,0.0,89.4,0.0,0.0,0.0

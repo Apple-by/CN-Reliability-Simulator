@@ -1,0 +1,181 @@
+scenario,seed,protocol,success,packets_in_input,transmissions,retransmissions,acks_sent,acks_lost,packets_lost,packets_corrupted,total_delay_ms,bit_error_rate,packet_loss_rate,ack_loss_rate,window_size
+Reliable,42,Stop-and-Wait,1,8,8,0,8,0,0,0,88,0.0,0.0,0.0,4
+Reliable,42,Go-Back-N,1,8,8,0,2,0,0,0,38,0.0,0.0,0.0,4
+Reliable,42,Selective Repeat,1,8,8,0,8,0,0,0,88,0.0,0.0,0.0,4
+Reliable,43,Stop-and-Wait,1,8,8,0,8,0,0,0,77,0.0,0.0,0.0,4
+Reliable,43,Go-Back-N,1,8,8,0,2,0,0,0,41,0.0,0.0,0.0,4
+Reliable,43,Selective Repeat,1,8,8,0,8,0,0,0,77,0.0,0.0,0.0,4
+Reliable,44,Stop-and-Wait,1,8,8,0,8,0,0,0,69,0.0,0.0,0.0,4
+Reliable,44,Go-Back-N,1,8,8,0,2,0,0,0,56,0.0,0.0,0.0,4
+Reliable,44,Selective Repeat,1,8,8,0,8,0,0,0,69,0.0,0.0,0.0,4
+Reliable,45,Stop-and-Wait,1,8,8,0,8,0,0,0,76,0.0,0.0,0.0,4
+Reliable,45,Go-Back-N,1,8,8,0,2,0,0,0,66,0.0,0.0,0.0,4
+Reliable,45,Selective Repeat,1,8,8,0,8,0,0,0,76,0.0,0.0,0.0,4
+Reliable,46,Stop-and-Wait,1,8,8,0,8,0,0,0,80,0.0,0.0,0.0,4
+Reliable,46,Go-Back-N,1,8,8,0,2,0,0,0,52,0.0,0.0,0.0,4
+Reliable,46,Selective Repeat,1,8,8,0,8,0,0,0,80,0.0,0.0,0.0,4
+Reliable,47,Stop-and-Wait,1,8,8,0,8,0,0,0,101,0.0,0.0,0.0,4
+Reliable,47,Go-Back-N,1,8,8,0,2,0,0,0,53,0.0,0.0,0.0,4
+Reliable,47,Selective Repeat,1,8,8,0,8,0,0,0,101,0.0,0.0,0.0,4
+Reliable,48,Stop-and-Wait,1,8,8,0,8,0,0,0,92,0.0,0.0,0.0,4
+Reliable,48,Go-Back-N,1,8,8,0,2,0,0,0,65,0.0,0.0,0.0,4
+Reliable,48,Selective Repeat,1,8,8,0,8,0,0,0,92,0.0,0.0,0.0,4
+Reliable,49,Stop-and-Wait,1,8,8,0,8,0,0,0,101,0.0,0.0,0.0,4
+Reliable,49,Go-Back-N,1,8,8,0,2,0,0,0,58,0.0,0.0,0.0,4
+Reliable,49,Selective Repeat,1,8,8,0,8,0,0,0,101,0.0,0.0,0.0,4
+Reliable,50,Stop-and-Wait,1,8,8,0,8,0,0,0,83,0.0,0.0,0.0,4
+Reliable,50,Go-Back-N,1,8,8,0,2,0,0,0,82,0.0,0.0,0.0,4
+Reliable,50,Selective Repeat,1,8,8,0,8,0,0,0,83,0.0,0.0,0.0,4
+Reliable,51,Stop-and-Wait,1,8,8,0,8,0,0,0,112,0.0,0.0,0.0,4
+Reliable,51,Go-Back-N,1,8,8,0,2,0,0,0,67,0.0,0.0,0.0,4
+Reliable,51,Selective Repeat,1,8,8,0,8,0,0,0,112,0.0,0.0,0.0,4
+Reliable,52,Stop-and-Wait,1,8,8,0,8,0,0,0,97,0.0,0.0,0.0,4
+Reliable,52,Go-Back-N,1,8,8,0,2,0,0,0,56,0.0,0.0,0.0,4
+Reliable,52,Selective Repeat,1,8,8,0,8,0,0,0,97,0.0,0.0,0.0,4
+Reliable,53,Stop-and-Wait,1,8,8,0,8,0,0,0,84,0.0,0.0,0.0,4
+Reliable,53,Go-Back-N,1,8,8,0,2,0,0,0,58,0.0,0.0,0.0,4
+Reliable,53,Selective Repeat,1,8,8,0,8,0,0,0,84,0.0,0.0,0.0,4
+Reliable,54,Stop-and-Wait,1,8,8,0,8,0,0,0,87,0.0,0.0,0.0,4
+Reliable,54,Go-Back-N,1,8,8,0,2,0,0,0,59,0.0,0.0,0.0,4
+Reliable,54,Selective Repeat,1,8,8,0,8,0,0,0,87,0.0,0.0,0.0,4
+Reliable,55,Stop-and-Wait,1,8,8,0,8,0,0,0,89,0.0,0.0,0.0,4
+Reliable,55,Go-Back-N,1,8,8,0,2,0,0,0,48,0.0,0.0,0.0,4
+Reliable,55,Selective Repeat,1,8,8,0,8,0,0,0,89,0.0,0.0,0.0,4
+Reliable,56,Stop-and-Wait,1,8,8,0,8,0,0,0,108,0.0,0.0,0.0,4
+Reliable,56,Go-Back-N,1,8,8,0,2,0,0,0,45,0.0,0.0,0.0,4
+Reliable,56,Selective Repeat,1,8,8,0,8,0,0,0,108,0.0,0.0,0.0,4
+Reliable,57,Stop-and-Wait,1,8,8,0,8,0,0,0,72,0.0,0.0,0.0,4
+Reliable,57,Go-Back-N,1,8,8,0,2,0,0,0,52,0.0,0.0,0.0,4
+Reliable,57,Selective Repeat,1,8,8,0,8,0,0,0,72,0.0,0.0,0.0,4
+Reliable,58,Stop-and-Wait,1,8,8,0,8,0,0,0,90,0.0,0.0,0.0,4
+Reliable,58,Go-Back-N,1,8,8,0,2,0,0,0,53,0.0,0.0,0.0,4
+Reliable,58,Selective Repeat,1,8,8,0,8,0,0,0,90,0.0,0.0,0.0,4
+Reliable,59,Stop-and-Wait,1,8,8,0,8,0,0,0,104,0.0,0.0,0.0,4
+Reliable,59,Go-Back-N,1,8,8,0,2,0,0,0,59,0.0,0.0,0.0,4
+Reliable,59,Selective Repeat,1,8,8,0,8,0,0,0,104,0.0,0.0,0.0,4
+Reliable,60,Stop-and-Wait,1,8,8,0,8,0,0,0,93,0.0,0.0,0.0,4
+Reliable,60,Go-Back-N,1,8,8,0,2,0,0,0,42,0.0,0.0,0.0,4
+Reliable,60,Selective Repeat,1,8,8,0,8,0,0,0,93,0.0,0.0,0.0,4
+Reliable,61,Stop-and-Wait,1,8,8,0,8,0,0,0,85,0.0,0.0,0.0,4
+Reliable,61,Go-Back-N,1,8,8,0,2,0,0,0,53,0.0,0.0,0.0,4
+Reliable,61,Selective Repeat,1,8,8,0,8,0,0,0,85,0.0,0.0,0.0,4
+Moderate,42,Stop-and-Wait,1,8,10,2,9,1,1,0,101,0.01,0.05,0.05,4
+Moderate,42,Go-Back-N,1,8,12,4,3,0,1,0,67,0.01,0.05,0.05,4
+Moderate,42,Selective Repeat,1,8,10,2,9,1,1,0,101,0.01,0.05,0.05,4
+Moderate,43,Stop-and-Wait,1,8,8,0,8,0,0,0,77,0.01,0.05,0.05,4
+Moderate,43,Go-Back-N,1,8,8,0,2,0,0,0,41,0.01,0.05,0.05,4
+Moderate,43,Selective Repeat,1,8,8,0,8,0,0,0,77,0.01,0.05,0.05,4
+Moderate,44,Stop-and-Wait,1,8,8,0,8,0,0,0,69,0.01,0.05,0.05,4
+Moderate,44,Go-Back-N,1,8,15,7,5,0,0,4,102,0.01,0.05,0.05,4
+Moderate,44,Selective Repeat,1,8,8,0,8,0,0,0,69,0.01,0.05,0.05,4
+Moderate,45,Stop-and-Wait,1,8,9,1,8,0,1,0,81,0.01,0.05,0.05,4
+Moderate,45,Go-Back-N,1,8,10,2,4,0,2,0,69,0.01,0.05,0.05,4
+Moderate,45,Selective Repeat,1,8,9,1,8,0,1,0,81,0.01,0.05,0.05,4
+Moderate,46,Stop-and-Wait,1,8,8,0,8,0,0,0,80,0.01,0.05,0.05,4
+Moderate,46,Go-Back-N,1,8,10,2,3,0,0,1,69,0.01,0.05,0.05,4
+Moderate,46,Selective Repeat,1,8,8,0,8,0,0,0,80,0.01,0.05,0.05,4
+Moderate,47,Stop-and-Wait,1,8,12,4,9,1,1,2,130,0.01,0.05,0.05,4
+Moderate,47,Go-Back-N,1,8,11,3,3,0,2,1,75,0.01,0.05,0.05,4
+Moderate,47,Selective Repeat,1,8,12,4,9,1,1,2,130,0.01,0.05,0.05,4
+Moderate,48,Stop-and-Wait,1,8,9,1,9,1,0,0,101,0.01,0.05,0.05,4
+Moderate,48,Go-Back-N,1,8,8,0,2,0,0,0,65,0.01,0.05,0.05,4
+Moderate,48,Selective Repeat,1,8,9,1,9,1,0,0,101,0.01,0.05,0.05,4
+Moderate,49,Stop-and-Wait,1,8,8,0,8,0,0,0,101,0.01,0.05,0.05,4
+Moderate,49,Go-Back-N,1,8,11,3,3,0,2,0,71,0.01,0.05,0.05,4
+Moderate,49,Selective Repeat,1,8,8,0,8,0,0,0,101,0.01,0.05,0.05,4
+Moderate,50,Stop-and-Wait,1,8,11,3,10,2,1,0,112,0.01,0.05,0.05,4
+Moderate,50,Go-Back-N,1,8,9,1,3,0,1,0,91,0.01,0.05,0.05,4
+Moderate,50,Selective Repeat,1,8,11,3,10,2,1,0,112,0.01,0.05,0.05,4
+Moderate,51,Stop-and-Wait,1,8,9,1,8,0,0,1,128,0.01,0.05,0.05,4
+Moderate,51,Go-Back-N,1,8,13,5,4,0,3,0,90,0.01,0.05,0.05,4
+Moderate,51,Selective Repeat,1,8,9,1,8,0,0,1,128,0.01,0.05,0.05,4
+Moderate,52,Stop-and-Wait,1,8,11,3,9,1,1,1,120,0.01,0.05,0.05,4
+Moderate,52,Go-Back-N,1,8,22,14,6,1,0,5,160,0.01,0.05,0.05,4
+Moderate,52,Selective Repeat,1,8,11,3,9,1,1,1,120,0.01,0.05,0.05,4
+Moderate,53,Stop-and-Wait,1,8,8,0,8,0,0,0,84,0.01,0.05,0.05,4
+Moderate,53,Go-Back-N,1,8,8,0,2,0,0,0,58,0.01,0.05,0.05,4
+Moderate,53,Selective Repeat,1,8,8,0,8,0,0,0,84,0.01,0.05,0.05,4
+Moderate,54,Stop-and-Wait,1,8,10,2,8,0,1,1,102,0.01,0.05,0.05,4
+Moderate,54,Go-Back-N,1,8,8,0,2,0,0,0,59,0.01,0.05,0.05,4
+Moderate,54,Selective Repeat,1,8,10,2,8,0,1,1,102,0.01,0.05,0.05,4
+Moderate,55,Stop-and-Wait,1,8,8,0,8,0,0,0,89,0.01,0.05,0.05,4
+Moderate,55,Go-Back-N,1,8,8,0,2,0,0,0,48,0.01,0.05,0.05,4
+Moderate,55,Selective Repeat,1,8,8,0,8,0,0,0,89,0.01,0.05,0.05,4
+Moderate,56,Stop-and-Wait,1,8,12,4,8,0,3,1,103,0.01,0.05,0.05,4
+Moderate,56,Go-Back-N,1,8,16,8,4,0,1,3,140,0.01,0.05,0.05,4
+Moderate,56,Selective Repeat,1,8,12,4,8,0,3,1,103,0.01,0.05,0.05,4
+Moderate,57,Stop-and-Wait,1,8,10,2,9,1,1,0,93,0.01,0.05,0.05,4
+Moderate,57,Go-Back-N,1,8,12,4,3,0,1,1,86,0.01,0.05,0.05,4
+Moderate,57,Selective Repeat,1,8,10,2,9,1,1,0,93,0.01,0.05,0.05,4
+Moderate,58,Stop-and-Wait,1,8,10,2,9,1,1,0,115,0.01,0.05,0.05,4
+Moderate,58,Go-Back-N,1,8,12,4,3,1,0,0,81,0.01,0.05,0.05,4
+Moderate,58,Selective Repeat,1,8,10,2,9,1,1,0,115,0.01,0.05,0.05,4
+Moderate,59,Stop-and-Wait,1,8,9,1,8,0,1,0,111,0.01,0.05,0.05,4
+Moderate,59,Go-Back-N,1,8,17,9,5,2,1,3,112,0.01,0.05,0.05,4
+Moderate,59,Selective Repeat,1,8,9,1,8,0,1,0,111,0.01,0.05,0.05,4
+Moderate,60,Stop-and-Wait,1,8,9,1,8,0,1,0,92,0.01,0.05,0.05,4
+Moderate,60,Go-Back-N,1,8,11,3,3,0,1,1,81,0.01,0.05,0.05,4
+Moderate,60,Selective Repeat,1,8,9,1,8,0,1,0,92,0.01,0.05,0.05,4
+Moderate,61,Stop-and-Wait,1,8,9,1,8,0,0,1,75,0.01,0.05,0.05,4
+Moderate,61,Go-Back-N,1,8,10,2,3,0,1,0,69,0.01,0.05,0.05,4
+Moderate,61,Selective Repeat,1,8,9,1,8,0,0,1,75,0.01,0.05,0.05,4
+Noisy,42,Stop-and-Wait,1,8,13,5,8,0,1,4,95,0.05,0.1,0.1,4
+Noisy,42,Go-Back-N,1,8,18,10,5,0,1,5,107,0.05,0.1,0.1,4
+Noisy,42,Selective Repeat,1,8,13,5,8,0,1,4,95,0.05,0.1,0.1,4
+Noisy,43,Stop-and-Wait,1,8,11,3,10,2,0,1,96,0.05,0.1,0.1,4
+Noisy,43,Go-Back-N,1,8,16,8,4,1,4,1,114,0.05,0.1,0.1,4
+Noisy,43,Selective Repeat,1,8,11,3,10,2,0,1,96,0.05,0.1,0.1,4
+Noisy,44,Stop-and-Wait,1,8,16,8,8,0,2,6,142,0.05,0.1,0.1,4
+Noisy,44,Go-Back-N,1,8,22,14,7,0,2,7,147,0.05,0.1,0.1,4
+Noisy,44,Selective Repeat,1,8,16,8,8,0,2,6,142,0.05,0.1,0.1,4
+Noisy,45,Stop-and-Wait,1,8,14,6,9,1,1,4,130,0.05,0.1,0.1,4
+Noisy,45,Go-Back-N,1,8,26,18,8,0,4,9,197,0.05,0.1,0.1,4
+Noisy,45,Selective Repeat,1,8,14,6,9,1,1,4,130,0.05,0.1,0.1,4
+Noisy,46,Stop-and-Wait,1,8,10,2,8,0,0,2,93,0.05,0.1,0.1,4
+Noisy,46,Go-Back-N,1,8,21,13,6,0,2,6,112,0.05,0.1,0.1,4
+Noisy,46,Selective Repeat,1,8,10,2,8,0,0,2,93,0.05,0.1,0.1,4
+Noisy,47,Stop-and-Wait,1,8,24,16,10,2,5,9,171,0.05,0.1,0.1,4
+Noisy,47,Go-Back-N,0,8,31,23,8,0,6,7,253,0.05,0.1,0.1,4
+Noisy,47,Selective Repeat,0,8,20,12,8,2,4,8,134,0.05,0.1,0.1,4
+Noisy,48,Stop-and-Wait,1,8,12,4,8,0,0,4,110,0.05,0.1,0.1,4
+Noisy,48,Go-Back-N,1,8,28,20,7,1,2,9,212,0.05,0.1,0.1,4
+Noisy,48,Selective Repeat,1,8,12,4,8,0,0,4,110,0.05,0.1,0.1,4
+Noisy,49,Stop-and-Wait,1,8,9,1,9,1,0,0,113,0.05,0.1,0.1,4
+Noisy,49,Go-Back-N,1,8,10,2,3,0,1,0,73,0.05,0.1,0.1,4
+Noisy,49,Selective Repeat,1,8,9,1,9,1,0,0,113,0.05,0.1,0.1,4
+Noisy,50,Stop-and-Wait,0,8,11,3,8,4,2,1,97,0.05,0.1,0.1,4
+Noisy,50,Go-Back-N,0,8,26,18,8,3,7,4,204,0.05,0.1,0.1,4
+Noisy,50,Selective Repeat,1,8,22,14,14,6,6,2,178,0.05,0.1,0.1,4
+Noisy,51,Stop-and-Wait,1,8,11,3,8,0,0,3,107,0.05,0.1,0.1,4
+Noisy,51,Go-Back-N,1,8,23,15,7,1,3,6,174,0.05,0.1,0.1,4
+Noisy,51,Selective Repeat,1,8,11,3,8,0,0,3,107,0.05,0.1,0.1,4
+Noisy,52,Stop-and-Wait,1,8,14,6,9,1,2,3,132,0.05,0.1,0.1,4
+Noisy,52,Go-Back-N,1,8,19,11,5,0,3,4,123,0.05,0.1,0.1,4
+Noisy,52,Selective Repeat,1,8,14,6,9,1,2,3,132,0.05,0.1,0.1,4
+Noisy,53,Stop-and-Wait,1,8,12,4,8,0,0,4,106,0.05,0.1,0.1,4
+Noisy,53,Go-Back-N,1,8,26,18,8,3,3,9,200,0.05,0.1,0.1,4
+Noisy,53,Selective Repeat,1,8,12,4,8,0,0,4,106,0.05,0.1,0.1,4
+Noisy,54,Stop-and-Wait,1,8,11,3,8,0,1,2,117,0.05,0.1,0.1,4
+Noisy,54,Go-Back-N,1,8,14,6,5,0,0,5,112,0.05,0.1,0.1,4
+Noisy,54,Selective Repeat,1,8,11,3,8,0,1,2,117,0.05,0.1,0.1,4
+Noisy,55,Stop-and-Wait,1,8,21,13,9,1,4,8,179,0.05,0.1,0.1,4
+Noisy,55,Go-Back-N,1,8,15,7,6,0,2,2,104,0.05,0.1,0.1,4
+Noisy,55,Selective Repeat,0,8,19,11,8,1,3,8,169,0.05,0.1,0.1,4
+Noisy,56,Stop-and-Wait,1,8,14,6,8,0,2,4,120,0.05,0.1,0.1,4
+Noisy,56,Go-Back-N,1,8,29,21,8,1,4,10,236,0.05,0.1,0.1,4
+Noisy,56,Selective Repeat,1,8,14,6,8,0,2,4,120,0.05,0.1,0.1,4
+Noisy,57,Stop-and-Wait,1,8,19,11,9,1,2,8,149,0.05,0.1,0.1,4
+Noisy,57,Go-Back-N,1,8,22,14,6,0,1,8,164,0.05,0.1,0.1,4
+Noisy,57,Selective Repeat,1,8,19,11,9,1,2,8,149,0.05,0.1,0.1,4
+Noisy,58,Stop-and-Wait,1,8,11,3,9,1,0,2,96,0.05,0.1,0.1,4
+Noisy,58,Go-Back-N,1,8,12,4,3,1,0,1,81,0.05,0.1,0.1,4
+Noisy,58,Selective Repeat,1,8,11,3,9,1,0,2,96,0.05,0.1,0.1,4
+Noisy,59,Stop-and-Wait,1,8,16,8,9,1,3,4,140,0.05,0.1,0.1,4
+Noisy,59,Go-Back-N,0,8,24,16,6,2,3,8,170,0.05,0.1,0.1,4
+Noisy,59,Selective Repeat,1,8,16,8,9,1,3,4,140,0.05,0.1,0.1,4
+Noisy,60,Stop-and-Wait,1,8,21,13,9,1,3,9,154,0.05,0.1,0.1,4
+Noisy,60,Go-Back-N,1,8,29,21,8,2,3,11,203,0.05,0.1,0.1,4
+Noisy,60,Selective Repeat,0,8,19,11,8,1,3,8,137,0.05,0.1,0.1,4
+Noisy,61,Stop-and-Wait,1,8,13,5,10,2,0,3,154,0.05,0.1,0.1,4
+Noisy,61,Go-Back-N,1,8,20,12,5,1,1,3,153,0.05,0.1,0.1,4
+Noisy,61,Selective Repeat,1,8,13,5,10,2,0,3,154,0.05,0.1,0.1,4
