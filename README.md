@@ -168,7 +168,7 @@ The graphs are saved as:
 
 - **Success rate:** Percentage of experimental runs in which all input packets were successfully delivered according to the protocol's completion condition.
 - **Transmissions:** Total number of data-frame transmission attempts.
-- **Retransmissions:** Transmission attempts beyond the original number of input packets.
+- **Retransmissions:** Total transmission attempts beyond the first attempt for each individual packet.
 - **Packet loss:** Number of data packets dropped by the simulated channel.
 - **Packet corruption:** Number of transmitted packets in which at least one bit was flipped.
 - **ACK loss:** Number of acknowledgements dropped by the simulated channel.

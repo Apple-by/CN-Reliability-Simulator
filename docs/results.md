@@ -41,8 +41,8 @@ The following table records the results from the experiment run included in the 
 | Moderate | Stop-and-Wait | 100% | 9.40 | 1.40 | 98.20 ms |
 | Moderate | Go-Back-N | 100% | 11.55 | 3.55 | 81.70 ms |
 | Moderate | Selective Repeat | 100% | 9.40 | 1.40 | 98.20 ms |
-| Noisy | Stop-and-Wait | 95% | 14.15 | 6.15 | 125.05 ms |
-| Noisy | Go-Back-N | 85% | 21.55 | 13.55 | 156.95 ms |
+| Noisy | Stop-and-Wait | 95% | 14.15 | 6.30 | 125.05 ms |
+| Noisy | Go-Back-N | 85% | 21.55 | 13.65 | 156.95 ms |
 | Noisy | Selective Repeat | 85% | 14.30 | 6.30 | 125.90 ms |
 
 Each success rate is calculated across 20 runs for its scenario and protocol.
@@ -75,7 +75,7 @@ Stop-and-Wait performed best by success rate in this particular experiment. This
 
 - **Success rate:** Percentage of runs in which the protocol reports successful completion.
 - **Average transmissions:** Mean number of data-frame transmission attempts.
-- **Average retransmissions:** Mean number of transmission attempts beyond the number of input packets, as calculated by the implementation.
+- **Average retransmissions:** Mean number of transmission attempts beyond the first attempt for each individual packet, averaged across the evaluation trials.
 - **Average simulated delay:** Mean accumulated delay recorded for packet and ACK transmission attempts.
 - **Packet loss:** Number of packet transmission attempts dropped by the simulated channel.
 - **Packet corruption:** Number of packet transmission attempts in which at least one bit was flipped.

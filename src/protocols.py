@@ -37,7 +37,7 @@ def _validate(data, max_retries, window_size=1):
         raise ValueError("window_size must be a positive integer.")
 
 
-def _finish(name, data, channel, success, transmissions, received):
+def _finish(name, data, channel, success, transmissions, received, attempts):
     stats = channel.get_stats()
 
     # Deliver only the continuous sequence starting at frame zero.
@@ -52,7 +52,7 @@ def _finish(name, data, channel, success, transmissions, received):
         success=success,
         delivered_data=delivered,
         transmissions=transmissions,
-        retransmissions=max(0, transmissions - len(data)),
+        retransmissions=sum(max(0, count - 1) for count in attempts),
         acks_sent=stats["acks_sent"],
         acks_lost=stats["acks_lost"],
         packets_lost=stats["packets_lost"],
@@ -69,12 +69,14 @@ def stop_and_wait(data, channel=None, max_retries=5):
 
     transmissions = 0
     received = set()
+    attempts = [0] * len(data)
 
     for seq, packet in enumerate(data):
         frame = crc_encode(packet)
         acknowledged = False
 
         for attempt in range(max_retries + 1):
+            attempts[seq] += 1
             transmissions += 1
             result = channel.transmit_packet(frame)
 
@@ -94,12 +96,12 @@ def stop_and_wait(data, channel=None, max_retries=5):
         if not acknowledged:
             return _finish(
                 "Stop-and-Wait", data, channel, False,
-                transmissions, received
+                transmissions, received, attempts
             )
 
     return _finish(
         "Stop-and-Wait", data, channel, True,
-        transmissions, received
+        transmissions, received, attempts
     )
 
 
@@ -125,7 +127,7 @@ def go_back_n(data, channel=None, window_size=4, max_retries=5):
             if attempts[seq] > max_retries:
                 return _finish(
                     "Go-Back-N", data, channel, False,
-                    transmissions, received
+                    transmissions, received, attempts
                 )
 
             attempts[seq] += 1
@@ -151,7 +153,7 @@ def go_back_n(data, channel=None, window_size=4, max_retries=5):
         # A missing/corrupted frame also keeps expected from advancing.
 
     return _finish(
-        "Go-Back-N", data, channel, True, transmissions, received
+        "Go-Back-N", data, channel, True, transmissions, received, attempts
     )
 
 
@@ -180,7 +182,7 @@ def selective_repeat(data, channel=None, window_size=4, max_retries=5):
             if attempts[seq] > max_retries:
                 return _finish(
                     "Selective Repeat", data, channel, False,
-                    transmissions, received
+                    transmissions, received, attempts
                 )
 
             attempts[seq] += 1
@@ -199,5 +201,5 @@ def selective_repeat(data, channel=None, window_size=4, max_retries=5):
                 acknowledged.add(seq)
 
     return _finish(
-        "Selective Repeat", data, channel, True, transmissions, received
+        "Selective Repeat", data, channel, True, transmissions, received, attempts
     )
